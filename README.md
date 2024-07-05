@@ -67,7 +67,7 @@ minikube service hello-kube
 
 Jika berhasil, perintah di atas akan membuka browser mengakses aplikasi yang berjalan pada Kubernetes
 
-Klik Ctrl+C untuk menghentikan aplikasi
+Klik `Ctrl+C` untuk menghentikan aplikasi
 
 Jalankan perintah berikut untuk menghapus aplikasi tersebut
 
@@ -77,7 +77,7 @@ kubectl delete pod hello-kube
 
 ## Troubleshoot
 
-Jika mengalami error `Unable to resolve the current Docker CLI context "default": context "default": context not found` ketika menjalankan minikube, jalankan perintah berikut pada Windows Terminal
+Jika mengalami error `Unable to resolve the current Docker CLI context "default": context "default": context not found XXXXX : The system cannot find the path specified.` ketika menjalankan minikube, jalankan perintah berikut pada Windows Terminal
 
 ```powershell
 cd C:\Users\{WINDOWS_USER}\.docker\contexts\meta\
@@ -85,7 +85,7 @@ mkdir 37a8eec1ce19687d132fe29051dca629d164e2c4958ba141d5f4133a33f0688f
 cp fe9c6bd7a66301f49ca9b6a70b217107cd1284598bfc254700c989b916da791e\meta.json .\37a8eec1ce19687d132fe29051dca629d164e2c4958ba141d5f4133a33f0688f\
 ```
 
-Ganti `WINDOWS_USER` dengan Windows User yang sebenarnya
+Ganti `{WINDOWS_USER}` dengan Windows User yang sebenarnya
 
 ## Tambahan
 
