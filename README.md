@@ -14,7 +14,7 @@ Brainmatics's Kubernetes Advance Training Software Requirement
 Docker Desktop memerlukan WSL untuk bisa dijalankan di Windows, untuk menginstallnya jalankan perintah berikut pada Windows Terminal
 
 ```powershell
-wsl --install
+wsl --install -d debian
 ```
 
 ## Prosedur pasca install WSL
